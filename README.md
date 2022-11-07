@@ -1,5 +1,5 @@
 # SSIB 
-Written by Sofia Tatidis, Johannes Gerding and me. 
+Written by Sofia Tatidis, Johannes Gerding and Dennis Nilsson. 
 See the finished report as a pdf above. 
 
 Abstract— This project aims to discover which data structuresare  most  suitable  for  the  following  four  operations;  searching,sorting,  inserting  and  removing.LinkedList,ArrayList,Stackof  the  Java  Collec-tion  library  and  the  self-implemented  singly  linked  list,SLL,  were  chosen  for  the  tests  as  they  all  implement  Java’s  Listinterface.As  a  result  of  our  experiments  we  found  that  sorting  a  listtakes approximately the same time for each of the classes withthe  exception  ofSLLwhich  is  three  orders  slower.  Searchis  quicker  for  linked  lists  compared  to  indexed  lists.  Linkedstructures are suitable for insertion and deletion at the start of alist, but slower at removing in the middle of a list.LinkedList,  a  doubly  linked  list,  is  time  efficient  at  removing  elements  atthe  end  of  a  list  whileSLL,  a  singly  linked  list,  is  slower  atremoving  elements  at  the  end  of  a  list.  Indexed  structures  arequicker at removing at the middle and end of a list, but slowerat  insertion  at  the  start  of  a  list.
